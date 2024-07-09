@@ -17,7 +17,7 @@ body {
 	font-family: 'Pacifico', cursive;
 	text-align: center;
 	font-size: 3.2em;
-	color: #cb2026;
+	color: black;
 	text-shadow: 1px 1px 1px #5a0b0d;
 }
 
@@ -167,8 +167,190 @@ body {
 
 
 
+@media (max-width: 1080px) {
+	.main-wrapper {
+			margin: 30px 15px 0;
+			width: calc(100% - 30px);
+			padding: 0;
+	}
+
+	.main-title {
+			font-size: 2.5em;
+	}
+
+	.drum-kit-wrapper {
+			width: 100%;
+			margin-top: 0;
+	}
+
+	.drum-kit {
+			height: auto;
+	}
+
+	.crash-cymbal,
+	.hihat-top-cymbal,
+	.key {
+			transform: scale(1.2);
+	}
+
+	.key-map-wrapper {
+			position: relative;
+			width: 100%;
+			height: auto;
+			padding: 20px 0;
+			margin-top: 20px;
+	}
+
+	.key-map-wrapper > h2 {
+			text-align: center;
+	}
+
+	.key-map-list {
+			text-align: center;
+			padding: 0;
+	}
+
+	.key-map-list > li {
+			display: inline-block;
+			margin: 10px;
+	}
+}
 
 
+
+@media (max-width: 720px) {
+	.main-wrapper {
+			margin: 30px 10px 0;
+			width: calc(100% - 20px);
+			padding: 0;
+	}
+
+	.main-title {
+			font-size: 2em;
+	}
+
+	.drum-kit-wrapper {
+			width: 100%;
+			margin-top: 0;
+	}
+
+	.drum-kit {
+			height: auto;
+	}
+
+	.crash-cymbal,
+	.hihat-top-cymbal,
+	.key {
+			transform: scale(1);
+	}
+
+	.key-map-wrapper {
+			position: relative;
+			width: 100%;
+			height: auto;
+			padding: 20px 0;
+			margin-top: 20px;
+	}
+
+	.key-map-wrapper > h2 {
+			text-align: center;
+			font-size: 1.5em;
+	}
+
+	.key-map-list {
+			text-align: center;
+			padding: 0;
+	}
+
+	.key-map-list > li {
+			display: inline-block;
+			margin: 5px;
+	}
+
+	.key {
+			font-size: 1em;
+			height: 28px;
+			width: 28px;
+	}
+
+	.key-code {
+			font-size: 1em;
+			padding: 3px 8px;
+	}
+
+	.key-sound {
+			font-size: 1em;
+			margin-left: 5px;
+	}
+}
+
+
+
+@media (max-width: 300px) {
+	.main-wrapper {
+			margin: 20px 5px 0;
+			width: calc(100% - 10px);
+			padding: 0;
+	}
+
+	.main-title {
+			font-size: 1.5em;
+	}
+
+	.drum-kit-wrapper {
+			width: 100%;
+			margin-top: 0;
+	}
+
+	.drum-kit {
+			height: auto;
+	}
+
+	.crash-cymbal,
+	.hihat-top-cymbal,
+	.key {
+			transform: scale(0.8);
+	}
+
+	.key-map-wrapper {
+			position: relative;
+			width: 100%;
+			height: auto;
+			padding: 10px 0;
+			margin-top: 10px;
+	}
+
+	.key-map-wrapper > h2 {
+			text-align: center;
+			font-size: 1.2em;
+	}
+
+	.key-map-list {
+			text-align: center;
+			padding: 0;
+	}
+
+	.key-map-list > li {
+			display: inline-block;
+			margin: 2px;
+	}
+
+	.key {
+			font-size: 0.8em;
+			height: 24px;
+			width: 24px;
+	}
+
+	.key-code {
+			font-size: 0.8em;
+			padding: 2px 6px;
+	}
+
+	.key-sound {
+			font-size: 0.8em;
+			margin-left: 2px;
+	}
+}
 
 
 
